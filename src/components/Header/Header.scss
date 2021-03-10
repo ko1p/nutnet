@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    .logo__link {
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .nav {
+        margin-right: 5px;
+        .nav__list {
+            display: flex;
+            list-style-type: none;
+            .nav__item {
+                margin: 0 5px;
+                .nav__link {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-decoration: none;
+                    color: #fff;
+                }
+                .nav__link_active {
+                    color: #00e0d0;
+                }
+            }
+        }
+    }
+}

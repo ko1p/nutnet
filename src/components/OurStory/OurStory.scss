@@ -1,0 +1,57 @@
+.our-story {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .our-story__container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 960px;
+        width: 100%;
+
+        .our-story__logo {
+            min-width: 235px;
+            min-height: 229px;
+            background-image: url('../../images/bigLogo.png');
+            margin: 70px 0 0 80px;
+            background-repeat: no-repeat;
+        }
+
+        .our-story__text {
+            max-width: 540px;
+            color: #413d4b;
+            margin: 65px 0 70px 0;
+
+            .our-story__title {
+                font-family: 'Playfair Display', serif;
+                margin: 0;
+            }
+            .our-story__paragph {
+                margin: 20px 0;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+            .button {
+                font-size: 16px;
+                font-family: 'Hammersmith One', sans-serif;
+                text-align: center;
+                color: #00e0d0;
+                border: 1px solid #00e0d0;
+                min-width: 120px;
+                min-height: 40px;
+                padding: 10px;
+                transition: .325s ease-in-out;
+                background-color: transparent;
+                outline-style: none;
+                cursor: pointer;
+    
+                &:hover {
+                    color: #fff;
+                    background-color: #00e0d0;
+                }
+            }
+        }
+    }
+}
