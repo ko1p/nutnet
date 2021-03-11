@@ -1,0 +1,65 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+    min-height: 650px;
+    color: #413d4b;
+
+    .news__title {
+        margin: 70px 0 30px 0;
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .news__form {
+        display: flex;
+        flex-direction: column;
+        max-width: 460px;
+        width: 100%;
+    }
+
+    .news__input {
+        margin-bottom: 20px;
+        border: 1px solid #e5e5e5;  
+        padding: 15px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .news__input::placeholder {
+        color: rgba(65,61,75,.7);
+    }
+
+    .news__text-area {
+        resize: none;
+        height: 200px;
+    }
+
+    .button {
+        font-size: 16px;
+        font-family: 'Hammersmith One', sans-serif;
+        text-align: center;
+        color: #00e0d0;
+        border: 1px solid #00e0d0;
+        min-width: 120px;
+        min-height: 40px;
+        padding: 10px;
+        transition: .325s ease-in-out;
+        background-color: transparent;
+        outline-style: none;
+        cursor: pointer;
+        margin: 17px 0 70px 0;
+        width: 120px;
+        align-self: center;
+
+        &:hover {
+            background-color: #00e0d0;
+            color: white;
+        }
+    }
+}
+

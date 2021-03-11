@@ -4,6 +4,10 @@ import OurStory from '../OurStory/OurStory';
 import VideoStory from '../VideoStory/VideoStory';
 import Expertise from '../Expertise/Expertise';
 import Team from '../Team/Team';
+import OurWorks from '../OurWorks/OurWorks';
+import Reviews from '../Reviews/Reviews';
+import NewsForm from '../NewsForm/NewsForm';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <VideoStory />
       <Expertise />
       <Team />
+      <OurWorks />
+      <Reviews />
+      <NewsForm />
+      <Footer /> 
     </main>
   );
 }
