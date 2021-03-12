@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nutnet/static/css/main.90a55d69.chunk.css",
+    "main.css": "/nutnet/static/css/main.cc697b77.chunk.css",
     "main.js": "/nutnet/static/js/main.49b60bc9.chunk.js",
     "main.js.map": "/nutnet/static/js/main.49b60bc9.chunk.js.map",
     "runtime-main.js": "/nutnet/static/js/runtime-main.8fa116a2.js",
@@ -10,7 +10,7 @@
     "static/js/3.1f00a1c3.chunk.js": "/nutnet/static/js/3.1f00a1c3.chunk.js",
     "static/js/3.1f00a1c3.chunk.js.map": "/nutnet/static/js/3.1f00a1c3.chunk.js.map",
     "index.html": "/nutnet/index.html",
-    "static/css/main.90a55d69.chunk.css.map": "/nutnet/static/css/main.90a55d69.chunk.css.map",
+    "static/css/main.cc697b77.chunk.css.map": "/nutnet/static/css/main.cc697b77.chunk.css.map",
     "static/js/2.ae723ba6.chunk.js.LICENSE.txt": "/nutnet/static/js/2.ae723ba6.chunk.js.LICENSE.txt",
     "static/media/HeaderCover.scss": "/nutnet/static/media/bgImage.d970abaf.jpg",
     "static/media/VideoStory.scss": "/nutnet/static/media/playIcon.9a54b862.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fa116a2.js",
     "static/js/2.ae723ba6.chunk.js",
-    "static/css/main.90a55d69.chunk.css",
+    "static/css/main.cc697b77.chunk.css",
     "static/js/main.49b60bc9.chunk.js"
   ]
 }
