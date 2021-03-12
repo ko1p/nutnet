@@ -2,7 +2,7 @@ import './Expertise.scss';
 
 function Expertise() {
   return (
-    <section className="expertise">
+    <section className="expertise" id="expertise">
         <h2 className="expertise__title">EXPERTISE</h2>
         <p className="expertise__paragraph">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
         <div className="expertise__container">

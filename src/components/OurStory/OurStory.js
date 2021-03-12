@@ -3,7 +3,7 @@ import './OurStory.scss';
 function OurStory() {
   return (
     <section className="our-story">
-        <div className="our-story__container">
+        <div className="our-story__container" id="story">
             <div className="our-story__logo"></div>
             <div className="our-story__text">
                 <h2 className="our-story__title">OUR STORY</h2>

@@ -1,19 +1,20 @@
 import './Footer.scss';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png'
 import arrow from '../../images/arrow.png'
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contacts">
         <div className="footer__container">
             <div className="footer__block">
                 <img className="footer__logo" src={logo} alt="logotype" />
                 <p className="footer__paragraph">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
 
                 <ul className="footer__items">
-                    <li className="footer__item"><a href="" className="footer__link">HELP</a></li>
-                    <li className="footer__item"><a href="" className="footer__link">TERMS &amp; CONDITION</a></li>
-                    <li className="footer__item"><a href="" className="footer__link">PRIVACY</a></li>
+                    <li className="footer__item"><Link to="/" className="footer__link">HELP</Link></li>
+                    <li className="footer__item"><Link to="/" className="footer__link">TERMS &amp; CONDITION</Link></li>
+                    <li className="footer__item"><Link to="/" className="footer__link">PRIVACY</Link></li>
                 </ul>
 
             </div>
@@ -30,7 +31,7 @@ function Footer() {
                 </address>
                 <div className="footer__tel-container">
                     <div className="footer__address-icon tel"></div>
-                    <a className="footer__tel" href="tel:622122243333">(+62) 21-2224 3333</a>
+                    <Link className="footer__tel" to="tel:622122243333">(+62) 21-2224 3333</Link>
                 </div>
             </div>
 
@@ -41,12 +42,12 @@ function Footer() {
                     <button className="footer__submit-btn" type="submit"><img src={arrow} alt="button" /></button>
                 </form> 
                 <ul className="footer__sm-items">
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon facebook"></div></a></li>
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon twitter"></div></a></li>
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon dribble"></div></a></li>
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon instagram"></div></a></li>
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon google"></div></a></li>
-                    <li className="footer__sm-item"><a className="footer__sm-link" href="#"><div className="footer__sm-icon youtube"></div></a></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon facebook"></div></Link></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon twitter"></div></Link></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon dribble"></div></Link></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon instagram"></div></Link></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon google"></div></Link></li>
+                    <li className="footer__sm-item"><Link className="footer__sm-link" to="#"><div className="footer__sm-icon youtube"></div></Link></li>
                 </ul>
                 <span className="footer__copyright">Copyright © 2021 - Tajem Creative</span>
             </div>

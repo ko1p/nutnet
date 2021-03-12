@@ -2,14 +2,115 @@
     max-width: 1600px;
     width: 100%;
     min-height: 500px;
-    background-image: url('../../images//bgImage4.jpg');
+    position: relative;
+    background-image: url("../../images//bgImage4.jpg");
     background-size: cover;
 
-    &::after{
+    &::after {
         content: "";
         width: 100%;
-        height: 500px;
         position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.85) 0px, rgba(49, 29, 94, 0.85) 100%);
+    }
+
+    .reviews__quotes {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        z-index: 3;
+        width: 32px;
+        height: 26px;
+        background-image: url('../../images/quotes.png');
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+
+        .review__text {
+            margin: 135px 0 0 0;
+            max-width: 930px;
+            width: 100%;
+            font-size: 16px;
+            font-family: "Playfair Display", serif;
+            opacity: 0.85;
+            line-height: 1.625;
+            letter-spacing: 0.25px;
+        }
+
+        .review__name {
+            margin: 44px 0 0 0;
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 1.57;
+        }
+
+        .review__profession {
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            justify-content: center;
+            font-size: 13px;
+            opacity: 0.7;
+            font-weight: 300;
+        }
+    }
+
+    .rec {
+        z-index: 4;
+    }
+
+    .rec-pagination {
+        margin: 40px 0 20px 0;
+    }
+
+    .rec-dot {
+        width: 42px;
+        height: 42px;
+        box-shadow: none;
+
+        &:nth-child(1) {
+            background-size: cover;
+            background-image: url("../../images/reviewer1.png");
+        }
+        &:nth-child(2) {
+            background-size: cover;
+            background-image: url("../../images/reviewer2.png");
+        }
+        &:nth-child(3) {
+            background-size: cover;
+            background-image: url("../../images/reviewer3.png");
+        }
+        &:nth-child(4) {
+            background-size: cover;
+            background-image: url("../../images/reviewer4.png");
+        }
+        &:nth-child(5) {
+            background-size: cover;
+            background-image: url("../../images/reviewer5.png");
+        }
+    }
+
+    .rec-dot_active {
+        width: 70px;
+        height: 70px;
+        box-shadow: none;
+        border: none;
+        background-color: inherit;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .review__name {
     }
 }

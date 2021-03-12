@@ -1,3 +1,4 @@
+import {BrowserRouter} from 'react-router-dom';
 import './App.scss';
 import HeaderCover from '../HeaderCover/HeaderCover';
 import OurStory from '../OurStory/OurStory';
@@ -11,17 +12,19 @@ import Footer from '../Footer/Footer';
 
 function App() {
   return (
-    <main className="app">
-      <HeaderCover />
-      <OurStory />
-      <VideoStory />
-      <Expertise />
-      <Team />
-      <OurWorks />
-      <Reviews />
-      <NewsForm />
-      <Footer /> 
-    </main>
+    <BrowserRouter basename="/nutnet">
+      <main className="app">
+        <HeaderCover />
+        <OurStory />
+        <VideoStory />
+        <Expertise />
+        <Team />
+        <OurWorks />
+        <Reviews />
+        <NewsForm />
+        <Footer />
+      </main>
+    </BrowserRouter>
   );
 }
 
