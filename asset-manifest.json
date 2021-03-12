@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/nutnet/static/css/main.90a55d69.chunk.css",
+    "main.js": "/nutnet/static/js/main.49b60bc9.chunk.js",
+    "main.js.map": "/nutnet/static/js/main.49b60bc9.chunk.js.map",
+    "runtime-main.js": "/nutnet/static/js/runtime-main.8fa116a2.js",
+    "runtime-main.js.map": "/nutnet/static/js/runtime-main.8fa116a2.js.map",
+    "static/js/2.ae723ba6.chunk.js": "/nutnet/static/js/2.ae723ba6.chunk.js",
+    "static/js/2.ae723ba6.chunk.js.map": "/nutnet/static/js/2.ae723ba6.chunk.js.map",
+    "static/js/3.1f00a1c3.chunk.js": "/nutnet/static/js/3.1f00a1c3.chunk.js",
+    "static/js/3.1f00a1c3.chunk.js.map": "/nutnet/static/js/3.1f00a1c3.chunk.js.map",
+    "index.html": "/nutnet/index.html",
+    "static/css/main.90a55d69.chunk.css.map": "/nutnet/static/css/main.90a55d69.chunk.css.map",
+    "static/js/2.ae723ba6.chunk.js.LICENSE.txt": "/nutnet/static/js/2.ae723ba6.chunk.js.LICENSE.txt",
+    "static/media/HeaderCover.scss": "/nutnet/static/media/bgImage.d970abaf.jpg",
+    "static/media/VideoStory.scss": "/nutnet/static/media/playIcon.9a54b862.png",
+    "static/media/Team.scss": "/nutnet/static/media/bgImage3.474b0c36.jpg",
+    "static/media/Reviews.scss": "/nutnet/static/media/reviewer3.f53ea335.png",
+    "static/media/Footer.scss": "/nutnet/static/media/sm-sprite.6cbe0256.png",
+    "static/media/OurStory.scss": "/nutnet/static/media/bigLogo.c36510f7.png",
+    "static/media/close.ae426c5f.svg": "/nutnet/static/media/close.ae426c5f.svg",
+    "static/media/Expertise.scss": "/nutnet/static/media/expertise-sprite.e76f9258.png",
+    "static/media/Header.scss": "/nutnet/static/media/menuIcon.1238890a.svg",
+    "static/media/rArrow.bbe7d9e5.svg": "/nutnet/static/media/rArrow.bbe7d9e5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fa116a2.js",
+    "static/js/2.ae723ba6.chunk.js",
+    "static/css/main.90a55d69.chunk.css",
+    "static/js/main.49b60bc9.chunk.js"
+  ]
+}
